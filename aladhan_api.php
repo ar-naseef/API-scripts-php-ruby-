@@ -75,6 +75,6 @@
 
 	$json_final_result = json_decode($final_result, true);
 
-	print_r($json_final_result['data']['timings']);
+	print_r($json_final_result['data']['timings']); // this will print the prayer times and also the mid night time.
 
 ?>
