@@ -42,6 +42,11 @@
 	$json_result_TZ = json_decode($result_TZ,true);
 	$timeZone = $json_result_TZ['data']['timezone'];
 
+	if ($timeZone == "Asia/Calcutta"){
+		$timeZone = "Asia/Kolkata";
+	}
+
+
 	// testing 2 ****
 	//echo "second request: ";
 	//echo "timeZone: ".$timeZone;
